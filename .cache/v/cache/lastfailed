@@ -1,0 +1,3 @@
+{
+  "tests/test_config.py::test_production_config": true
+}
