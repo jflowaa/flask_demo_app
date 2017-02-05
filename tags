@@ -1,0 +1,209 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_DIR	demo_app/settings.py	/^    APP_DIR = os.path.abspath(os.path.dirname(__file__))  # This directory$/;"	kind:variable	line:10
+ASSETS_DEBUG	demo_app/settings.py	/^    ASSETS_DEBUG = False$/;"	kind:variable	line:13
+ASSETS_DEBUG	demo_app/settings.py	/^    ASSETS_DEBUG = True  # Don't bundle\/minify static assets$/;"	kind:variable	line:39
+BCRYPT_LOG_ROUNDS	demo_app/settings.py	/^    BCRYPT_LOG_ROUNDS = 13$/;"	kind:variable	line:12
+BCRYPT_LOG_ROUNDS	demo_app/settings.py	/^    BCRYPT_LOG_ROUNDS = 4  # For faster tests; needs at least 4 to avoid "ValueError: Invalid rounds"$/;"	kind:variable	line:49
+BaseFactory	tests/factories.py	/^class BaseFactory(SQLAlchemyModelFactory):$/;"	kind:class	line:10
+CACHE_TYPE	demo_app/settings.py	/^    CACHE_TYPE = 'simple'  # Can be "memcached", "redis", etc.$/;"	kind:variable	line:16
+CACHE_TYPE	demo_app/settings.py	/^    CACHE_TYPE = 'simple'  # Can be "memcached", "redis", etc.$/;"	kind:variable	line:40
+CONFIG	autoapp.py	/^CONFIG = DevConfig if get_debug_flag() else ProdConfig$/;"	kind:variable	line:8
+CRUDMixin	demo_app/database.py	/^class CRUDMixin(object):$/;"	kind:class	line:13
+Column	demo_app/database.py	/^Column = db.Column$/;"	kind:variable	line:9
+Config	demo_app/settings.py	/^class Config(object):$/;"	kind:class	line:6
+DB_NAME	demo_app/settings.py	/^    DB_NAME = 'dev.db'$/;"	kind:variable	line:34
+DB_PATH	demo_app/settings.py	/^    DB_PATH = os.path.join(Config.PROJECT_ROOT, DB_NAME)$/;"	kind:variable	line:36
+DEBUG	demo_app/settings.py	/^    DEBUG = False$/;"	kind:variable	line:24
+DEBUG	demo_app/settings.py	/^    DEBUG = True$/;"	kind:variable	line:33
+DEBUG	demo_app/settings.py	/^    DEBUG = True$/;"	kind:variable	line:47
+DEBUG_TB_ENABLED	demo_app/settings.py	/^    DEBUG_TB_ENABLED = False  # Disable Debug toolbar$/;"	kind:variable	line:14
+DEBUG_TB_ENABLED	demo_app/settings.py	/^    DEBUG_TB_ENABLED = False  # Disable Debug toolbar$/;"	kind:variable	line:26
+DEBUG_TB_ENABLED	demo_app/settings.py	/^    DEBUG_TB_ENABLED = True$/;"	kind:variable	line:38
+DEBUG_TB_INTERCEPT_REDIRECTS	demo_app/settings.py	/^    DEBUG_TB_INTERCEPT_REDIRECTS = False$/;"	kind:variable	line:15
+DevConfig	demo_app/settings.py	/^class DevConfig(Config):$/;"	kind:class	line:29
+ENV	demo_app/settings.py	/^    ENV = 'dev'$/;"	kind:variable	line:32
+ENV	demo_app/settings.py	/^    ENV = 'prod'$/;"	kind:variable	line:23
+HERE	demo_app/commands.py	/^HERE = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:12
+LoginForm	demo_app/public/forms.py	/^class LoginForm(Form):$/;"	kind:class	line:10
+Meta	tests/factories.py	/^    class Meta:$/;"	kind:class	line:13
+Meta	tests/factories.py	/^    class Meta:$/;"	kind:class	line:28
+Model	demo_app/database.py	/^class Model(CRUDMixin, db.Model):$/;"	kind:class	line:41
+PROJECT_ROOT	demo_app/commands.py	/^PROJECT_ROOT = os.path.join(HERE, os.pardir)$/;"	kind:variable	line:13
+PROJECT_ROOT	demo_app/settings.py	/^    PROJECT_ROOT = os.path.abspath(os.path.join(APP_DIR, os.pardir))$/;"	kind:variable	line:11
+PY2	demo_app/compat.py	/^PY2 = int(sys.version[0]) == 2$/;"	kind:variable	line:5
+ProdConfig	demo_app/settings.py	/^class ProdConfig(Config):$/;"	kind:class	line:20
+RegisterForm	demo_app/user/forms.py	/^class RegisterForm(Form):$/;"	kind:class	line:10
+Role	demo_app/user/models.py	/^class Role(SurrogatePK, Model):$/;"	kind:class	line:11
+SECRET_KEY	demo_app/settings.py	/^    SECRET_KEY = os.environ.get('DEMO_APP_SECRET', 'secret-key')  # TODO: Change me$/;"	kind:variable	line:9
+SQLALCHEMY_DATABASE_URI	demo_app/settings.py	/^    SQLALCHEMY_DATABASE_URI = 'postgresql:\/\/localhost\/example'  # TODO: Change me$/;"	kind:variable	line:25
+SQLALCHEMY_DATABASE_URI	demo_app/settings.py	/^    SQLALCHEMY_DATABASE_URI = 'sqlite:\/\/'$/;"	kind:variable	line:48
+SQLALCHEMY_DATABASE_URI	demo_app/settings.py	/^    SQLALCHEMY_DATABASE_URI = 'sqlite:\/\/\/{0}'.format(DB_PATH)$/;"	kind:variable	line:37
+SQLALCHEMY_TRACK_MODIFICATIONS	demo_app/settings.py	/^    SQLALCHEMY_TRACK_MODIFICATIONS = False$/;"	kind:variable	line:17
+SurrogatePK	demo_app/database.py	/^class SurrogatePK(object):$/;"	kind:class	line:49
+TESTING	demo_app/settings.py	/^    TESTING = True$/;"	kind:variable	line:46
+TEST_PATH	demo_app/commands.py	/^TEST_PATH = os.path.join(PROJECT_ROOT, 'tests')$/;"	kind:variable	line:14
+TestConfig	demo_app/settings.py	/^class TestConfig(Config):$/;"	kind:class	line:43
+TestLoggingIn	tests/test_functional.py	/^class TestLoggingIn:$/;"	kind:class	line:13
+TestLoginForm	tests/test_forms.py	/^class TestLoginForm:$/;"	kind:class	line:34
+TestRegisterForm	tests/test_forms.py	/^class TestRegisterForm:$/;"	kind:class	line:8
+TestRegistering	tests/test_functional.py	/^class TestRegistering:$/;"	kind:class	line:68
+TestUser	tests/test_models.py	/^class TestUser:$/;"	kind:class	line:13
+User	demo_app/user/models.py	/^class User(UserMixin, SurrogatePK, Model):$/;"	kind:class	line:28
+UserFactory	tests/factories.py	/^class UserFactory(BaseFactory):$/;"	kind:class	line:20
+WTF_CSRF_ENABLED	demo_app/settings.py	/^    WTF_CSRF_ENABLED = False  # Allows form testing$/;"	kind:variable	line:50
+__abstract__	demo_app/database.py	/^    __abstract__ = True$/;"	kind:variable	line:44
+__init__	demo_app/public/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:16
+__init__	demo_app/user/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:22
+__init__	demo_app/user/models.py	/^    def __init__(self, name, **kwargs):$/;"	kind:member	line:19
+__init__	demo_app/user/models.py	/^    def __init__(self, username, email, password=None, **kwargs):$/;"	kind:member	line:42
+__init__.py	demo_app/__init__.py	1;"	kind:file	line:1
+__init__.py	demo_app/public/__init__.py	1;"	kind:file	line:1
+__init__.py	demo_app/user/__init__.py	1;"	kind:file	line:1
+__init__.py	tests/__init__.py	1;"	kind:file	line:1
+__repr__	demo_app/user/models.py	/^    def __repr__(self):$/;"	kind:member	line:23
+__repr__	demo_app/user/models.py	/^    def __repr__(self):$/;"	kind:member	line:63
+__table_args__	demo_app/database.py	/^    __table_args__ = {'extend_existing': True}$/;"	kind:variable	line:52
+__tablename__	demo_app/user/models.py	/^    __tablename__ = 'roles'$/;"	kind:variable	line:14
+__tablename__	demo_app/user/models.py	/^    __tablename__ = 'users'$/;"	kind:variable	line:31
+about	demo_app/public/views.py	/^def about():$/;"	kind:function	line:60
+abstract	tests/factories.py	/^        abstract = True$/;"	kind:variable	line:16
+active	demo_app/user/models.py	/^    active = Column(db.Boolean(), default=False)$/;"	kind:variable	line:39
+active	tests/factories.py	/^    active = True$/;"	kind:variable	line:26
+app	autoapp.py	/^app = create_app(CONFIG)$/;"	kind:variable	line:10
+app	tests/conftest.py	/^def app():$/;"	kind:function	line:15
+app.py	demo_app/app.py	1;"	kind:file	line:1
+assets	demo_app/assets.py	/^assets = Environment()$/;"	kind:variable	line:20
+assets.py	demo_app/assets.py	1;"	kind:file	line:1
+autoapp.py	autoapp.py	1;"	kind:file	line:1
+basestring	demo_app/compat.py	/^    basestring = (str, bytes)$/;"	kind:variable	line:18
+basestring	demo_app/compat.py	/^    basestring = basestring  # noqa$/;"	kind:variable	line:12
+bcrypt	demo_app/extensions.py	/^bcrypt = Bcrypt()$/;"	kind:variable	line:11
+binary_type	demo_app/compat.py	/^    binary_type = bytes$/;"	kind:variable	line:15
+binary_type	demo_app/compat.py	/^    binary_type = str$/;"	kind:variable	line:9
+blueprint	demo_app/public/views.py	/^blueprint = Blueprint('public', __name__, static_folder='..\/static')$/;"	kind:variable	line:12
+blueprint	demo_app/user/views.py	/^blueprint = Blueprint('user', __name__, url_prefix='\/users', static_folder='..\/static')$/;"	kind:variable	line:6
+cache	demo_app/extensions.py	/^cache = Cache()$/;"	kind:variable	line:16
+check_password	demo_app/user/models.py	/^    def check_password(self, value):$/;"	kind:member	line:54
+clean	demo_app/commands.py	/^def clean():$/;"	kind:function	line:51
+commands.py	demo_app/commands.py	1;"	kind:file	line:1
+compat.py	demo_app/compat.py	1;"	kind:file	line:1
+confirm	demo_app/user/forms.py	/^    confirm = PasswordField('Verify password',$/;"	kind:variable	line:19
+conftest.py	tests/conftest.py	1;"	kind:file	line:1
+create	demo_app/database.py	/^    def create(cls, **kwargs):$/;"	kind:member	line:17
+create_app	demo_app/app.py	/^def create_app(config_object=ProdConfig):$/;"	kind:function	line:11
+created_at	demo_app/user/models.py	/^    created_at = Column(db.DateTime, nullable=False, default=dt.datetime.utcnow)$/;"	kind:variable	line:36
+csrf_protect	demo_app/extensions.py	/^csrf_protect = CSRFProtect()$/;"	kind:variable	line:12
+css	demo_app/assets.py	/^css = Bundle($/;"	kind:variable	line:5
+database.py	demo_app/database.py	1;"	kind:file	line:1
+db	demo_app/extensions.py	/^db = SQLAlchemy()$/;"	kind:variable	line:14
+db	tests/conftest.py	/^def db(app):$/;"	kind:function	line:33
+debug_toolbar	demo_app/extensions.py	/^debug_toolbar = DebugToolbarExtension()$/;"	kind:variable	line:17
+delete	demo_app/database.py	/^    def delete(self, commit=True):$/;"	kind:member	line:35
+email	demo_app/user/forms.py	/^    email = StringField('Email',$/;"	kind:variable	line:15
+email	demo_app/user/models.py	/^    email = Column(db.String(80), unique=True, nullable=False)$/;"	kind:variable	line:33
+email	tests/factories.py	/^    email = Sequence(lambda n: 'user{0}@example.com'.format(n))$/;"	kind:variable	line:24
+execute_tool	demo_app/commands.py	/^    def execute_tool(description, *args):$/;"	kind:function	line:37
+extensions.py	demo_app/extensions.py	1;"	kind:file	line:1
+factories.py	tests/factories.py	1;"	kind:file	line:1
+filters	demo_app/assets.py	/^    filters='cssmin',$/;"	kind:variable	line:8
+filters	demo_app/assets.py	/^    filters='jsmin',$/;"	kind:variable	line:16
+first_name	demo_app/user/models.py	/^    first_name = Column(db.String(30), nullable=True)$/;"	kind:variable	line:37
+flash_errors	demo_app/utils.py	/^def flash_errors(form, category='warning'):$/;"	kind:function	line:6
+forms.py	demo_app/public/forms.py	1;"	kind:file	line:1
+forms.py	demo_app/user/forms.py	1;"	kind:file	line:1
+full_name	demo_app/user/models.py	/^    def full_name(self):$/;"	kind:member	line:59
+get_by_id	demo_app/database.py	/^    def get_by_id(cls, record_id):$/;"	kind:member	line:57
+help	demo_app/commands.py	/^              help='Fix imports using isort, before linting')$/;"	kind:variable	line:27
+help	demo_app/commands.py	/^              help='Property on Rule to order by (default: rule)')$/;"	kind:variable	line:68
+help	demo_app/commands.py	/^              help='Url to test (ex. \/static\/image.png)')$/;"	kind:variable	line:66
+home	demo_app/public/views.py	/^def home():$/;"	kind:function	line:22
+id	demo_app/database.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	kind:variable	line:54
+is_admin	demo_app/user/models.py	/^    is_admin = Column(db.Boolean(), default=False)$/;"	kind:variable	line:40
+js	demo_app/assets.py	/^js = Bundle($/;"	kind:variable	line:12
+last_name	demo_app/user/models.py	/^    last_name = Column(db.String(30), nullable=True)$/;"	kind:variable	line:38
+lint	demo_app/commands.py	/^def lint(fix_imports):$/;"	kind:function	line:28
+load_user	demo_app/public/views.py	/^def load_user(user_id):$/;"	kind:function	line:16
+login_manager	demo_app/extensions.py	/^login_manager = LoginManager()$/;"	kind:variable	line:13
+logout	demo_app/public/views.py	/^def logout():$/;"	kind:function	line:39
+members	demo_app/user/views.py	/^def members():$/;"	kind:function	line:11
+migrate	demo_app/extensions.py	/^migrate = Migrate()$/;"	kind:variable	line:15
+model	tests/factories.py	/^        model = User$/;"	kind:variable	line:31
+models.py	demo_app/user/models.py	1;"	kind:file	line:1
+name	demo_app/user/models.py	/^    name = Column(db.String(80), unique=True, nullable=False)$/;"	kind:variable	line:15
+output	demo_app/assets.py	/^    output='public\/css\/common.css'$/;"	kind:variable	line:9
+output	demo_app/assets.py	/^    output='public\/js\/common.js'$/;"	kind:variable	line:17
+password	demo_app/public/forms.py	/^    password = PasswordField('Password', validators=[DataRequired()])$/;"	kind:variable	line:14
+password	demo_app/user/forms.py	/^    password = PasswordField('Password',$/;"	kind:variable	line:17
+password	demo_app/user/models.py	/^    password = Column(db.Binary(128), nullable=True)$/;"	kind:variable	line:35
+password	tests/factories.py	/^    password = PostGenerationMethodCall('set_password', 'example')$/;"	kind:variable	line:25
+reference_col	demo_app/database.py	/^def reference_col(tablename, nullable=False, pk_name='id', **kwargs):$/;"	kind:function	line:67
+register	demo_app/public/views.py	/^def register():$/;"	kind:function	line:47
+register_blueprints	demo_app/app.py	/^def register_blueprints(app):$/;"	kind:function	line:39
+register_commands	demo_app/app.py	/^def register_commands(app):$/;"	kind:function	line:69
+register_errorhandlers	demo_app/app.py	/^def register_errorhandlers(app):$/;"	kind:function	line:46
+register_extensions	demo_app/app.py	/^def register_extensions(app):$/;"	kind:function	line:26
+register_shellcontext	demo_app/app.py	/^def register_shellcontext(app):$/;"	kind:function	line:58
+relationship	demo_app/database.py	/^relationship = relationship$/;"	kind:variable	line:10
+render_error	demo_app/app.py	/^    def render_error(error):$/;"	kind:function	line:48
+save	demo_app/database.py	/^    def save(self, commit=True):$/;"	kind:member	line:28
+set_password	demo_app/user/models.py	/^    def set_password(self, password):$/;"	kind:member	line:50
+settings.py	demo_app/settings.py	1;"	kind:file	line:1
+shell_context	demo_app/app.py	/^    def shell_context():$/;"	kind:function	line:60
+sqlalchemy_session	tests/factories.py	/^        sqlalchemy_session = db.session$/;"	kind:variable	line:17
+string_types	demo_app/compat.py	/^    string_types = (str, unicode)  # noqa$/;"	kind:variable	line:10
+string_types	demo_app/compat.py	/^    string_types = (str,)$/;"	kind:variable	line:16
+test	demo_app/commands.py	/^def test():$/;"	kind:function	line:18
+test_can_log_in_returns_200	tests/test_functional.py	/^    def test_can_log_in_returns_200(self, user, testapp):$/;"	kind:member	line:16
+test_can_register	tests/test_functional.py	/^    def test_can_register(self, user, testapp):$/;"	kind:member	line:71
+test_check_password	tests/test_models.py	/^    def test_check_password(self):$/;"	kind:member	line:48
+test_config.py	tests/test_config.py	1;"	kind:file	line:1
+test_created_at_defaults_to_datetime	tests/test_models.py	/^    def test_created_at_defaults_to_datetime(self):$/;"	kind:member	line:24
+test_dev_config	tests/test_config.py	/^def test_dev_config():$/;"	kind:function	line:16
+test_factory	tests/test_models.py	/^    def test_factory(self, db):$/;"	kind:member	line:37
+test_forms.py	tests/test_forms.py	1;"	kind:file	line:1
+test_full_name	tests/test_models.py	/^    def test_full_name(self):$/;"	kind:member	line:55
+test_functional.py	tests/test_functional.py	1;"	kind:file	line:1
+test_get_by_id	tests/test_models.py	/^    def test_get_by_id(self):$/;"	kind:member	line:16
+test_models.py	tests/test_models.py	1;"	kind:file	line:1
+test_password_is_nullable	tests/test_models.py	/^    def test_password_is_nullable(self):$/;"	kind:member	line:31
+test_production_config	tests/test_config.py	/^def test_production_config():$/;"	kind:function	line:7
+test_roles	tests/test_models.py	/^    def test_roles(self):$/;"	kind:member	line:60
+test_sees_alert_on_log_out	tests/test_functional.py	/^    def test_sees_alert_on_log_out(self, user, testapp):$/;"	kind:member	line:28
+test_sees_error_message_if_password_is_incorrect	tests/test_functional.py	/^    def test_sees_error_message_if_password_is_incorrect(self, user, testapp):$/;"	kind:member	line:41
+test_sees_error_message_if_passwords_dont_match	tests/test_functional.py	/^    def test_sees_error_message_if_passwords_dont_match(self, user, testapp):$/;"	kind:member	line:90
+test_sees_error_message_if_user_already_registered	tests/test_functional.py	/^    def test_sees_error_message_if_user_already_registered(self, user, testapp):$/;"	kind:member	line:105
+test_sees_error_message_if_username_doesnt_exist	tests/test_functional.py	/^    def test_sees_error_message_if_username_doesnt_exist(self, user, testapp):$/;"	kind:member	line:54
+test_validate_email_already_registered	tests/test_forms.py	/^    def test_validate_email_already_registered(self, user):$/;"	kind:member	line:19
+test_validate_inactive_user	tests/test_forms.py	/^    def test_validate_inactive_user(self, user):$/;"	kind:member	line:60
+test_validate_invalid_password	tests/test_forms.py	/^    def test_validate_invalid_password(self, user):$/;"	kind:member	line:52
+test_validate_success	tests/test_forms.py	/^    def test_validate_success(self, db):$/;"	kind:member	line:27
+test_validate_success	tests/test_forms.py	/^    def test_validate_success(self, user):$/;"	kind:member	line:37
+test_validate_unknown_username	tests/test_forms.py	/^    def test_validate_unknown_username(self, db):$/;"	kind:member	line:45
+test_validate_user_already_registered	tests/test_forms.py	/^    def test_validate_user_already_registered(self, user):$/;"	kind:member	line:11
+testapp	tests/conftest.py	/^def testapp(app):$/;"	kind:function	line:27
+text_type	demo_app/compat.py	/^    text_type = str$/;"	kind:variable	line:14
+text_type	demo_app/compat.py	/^    text_type = unicode  # noqa$/;"	kind:variable	line:8
+unicode	demo_app/compat.py	/^    unicode = str$/;"	kind:variable	line:17
+unicode	demo_app/compat.py	/^    unicode = unicode  # noqa$/;"	kind:variable	line:11
+update	demo_app/database.py	/^    def update(self, commit=True, **kwargs):$/;"	kind:member	line:22
+urls	demo_app/commands.py	/^def urls(url, order):$/;"	kind:function	line:70
+user	demo_app/user/models.py	/^    user = relationship('User', backref='roles')$/;"	kind:variable	line:17
+user	tests/conftest.py	/^def user(db):$/;"	kind:function	line:47
+user_id	demo_app/user/models.py	/^    user_id = reference_col('users', nullable=True)$/;"	kind:variable	line:16
+username	demo_app/public/forms.py	/^    username = StringField('Username', validators=[DataRequired()])$/;"	kind:variable	line:13
+username	demo_app/user/forms.py	/^    username = StringField('Username',$/;"	kind:variable	line:13
+username	demo_app/user/models.py	/^    username = Column(db.String(80), unique=True, nullable=False)$/;"	kind:variable	line:32
+username	tests/factories.py	/^    username = Sequence(lambda n: 'user{0}'.format(n))$/;"	kind:variable	line:23
+utils.py	demo_app/utils.py	1;"	kind:file	line:1
+validate	demo_app/public/forms.py	/^    def validate(self):$/;"	kind:member	line:21
+validate	demo_app/user/forms.py	/^    def validate(self):$/;"	kind:member	line:27
+validators	demo_app/user/forms.py	/^                             validators=[DataRequired(), Length(min=6, max=40)])$/;"	kind:variable	line:18
+validators	demo_app/user/forms.py	/^                           validators=[DataRequired(), Length(min=3, max=25)])$/;"	kind:variable	line:14
+validators	demo_app/user/forms.py	/^                        validators=[DataRequired(), Email(), Length(min=6, max=40)])$/;"	kind:variable	line:16
+views.py	demo_app/public/views.py	1;"	kind:file	line:1
+views.py	demo_app/user/views.py	1;"	kind:file	line:1
